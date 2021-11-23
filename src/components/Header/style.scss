@@ -1,0 +1,38 @@
+ @import '/src/styles/_colors';
+
+.header {
+
+    &__container {
+        width: 100%;
+        margin: 2rem 0;
+        display:flex;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+
+    &__logo{
+        display:flex;
+        align-items: flex-end ;
+
+        &--state{
+            margin-right: 12px;
+        }
+
+        &--ebac{
+            align-content:stretch;
+        }
+    }
+
+    &__city{
+        font-size: 1.8rem;
+        line-height: 2rem;
+        color: $white;
+    }
+
+    &__span{
+        color: $white;
+        font-size: 1.6rem;
+        line-height: 1.4rem;
+    }
+
+}

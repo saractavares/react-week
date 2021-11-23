@@ -1,4 +1,4 @@
-@import 'colors';
+@import '__colors';
 
 *{
     margin: 0;
@@ -16,6 +16,18 @@ body{
     background-color: $darkblue;
 }
 
-.App {
-    color: $white;
+.main {
+    &__wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 120rem;
+        margin: 0 auto;
+    }
 }
