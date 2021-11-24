@@ -1,6 +1,14 @@
 @import "/src/styles/_colors";
 
 .body {
+
+    &__wrapper{
+        background-color: rgb(198, 232, 245);
+        // padding: 2rem;
+        
+
+    }
+
     &__title {
         color: $strong_blue;
         font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -8,9 +16,10 @@
         width: auto;
         margin: 0 4rem;
         padding-top: 8rem;
+        padding: 8rem 2rem 0 2rem;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         background-color: white;
     }
 
@@ -20,46 +29,135 @@
             "Open Sans", "Helvetica Neue", sans-serif;
         font-size: 250%;
         width: auto;
-        // max-width: 120rem;
         margin: 0 4rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: white;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 4rem;
+        padding-right: 2rem;
     }
 
     &__img {
         /* Full height */
         height: 100%;
-
+        
         /* Center and scale the image nicely */
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     &__row {
         display: flex;
-        border-style: solid;
-        border-color: $bg_blue;
-        margin: 2rem;
-        padding: 2rem;
-      }
-      
+        // margin: 2rem;
+        padding: 0 4rem;
+    }
+
     &__column {
-        // border-radius: 50%;
         flex: 33.33%;
-        padding: 5px;
-        display: flex;
-        justify-content:space-evenly;
         align-items: center;
-        margin: 2rem 0;
-        width: 100%;
-        height: 100%;
         background-color: $white;
+        padding: 6rem;
+    }
 
-      }
+    &__h2 {
+        font-size: 2rem;
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+        margin: 0 0 2rem 0;
+    }
 
+    &__p {
+        font-size: 1.6rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    &__escolha {
+        color: $bg_blue;
+        width: auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0 4rem;
+        padding: 2rem;
+        background-color: $white;
+        font-size: 3rem;
+    }
+
+    &__descriptions {
+        padding: 2rem;
+    }
+
+    &__card_img {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex: 33.33%;
+        padding: 1.5rem;
+        border-radius: 50%;
+    }
+
+    &__options {
+        width: auto;
+
+        margin: 0 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $white;
+        padding: 2rem;
+    }
+    &__button{
+     
+        background-color: rgb(211, 224, 235);
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        border-style: none;
+     }
+
+    &__span {
+        font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 2rem;
+        color: $strong_blue;
+    }
+
+    &__button:hover{
+        background-color: rgb(200, 229, 253);
+        color: black;
+    }
+    &__button:active{
+        background-color: #558cdd;
+        color: white;
+    }
+
+    /*sessão acessibilidade checada*/
+    &__img-icon-checado {
+        // width: 20px;
+        background-color: rgb(61, 87, 235);
+        border-radius: 14%;
+        margin: 0.4rem;
+        padding: 0.4rem;
+    }
+
+    /*sessão acessibilidade NÃO checada*/
+
+    &__img-icon-nao-checado{
+        background-color: rgb(173, 178, 180);
+        border-radius: 14%;
+        margin: 0.4rem;
+        padding: 0.4rem;
+    }
+    
+    &__a {
+        background-color: $blue;
+        padding: 1rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+        border-radius: 5%;
+    }
 }

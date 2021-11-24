@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
     
 }
 
@@ -19,7 +19,7 @@ html {
 
 body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: $white;
+    background-color: rgb(198, 232, 245);
 }
 
 .main {
@@ -37,3 +37,20 @@ body{
         margin: 0 auto;
     }
 }
+
+/* Set the background color of body to tan */
+
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
