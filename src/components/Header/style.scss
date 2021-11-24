@@ -4,10 +4,13 @@
 
     &__container {
         width: 100%;
-        margin: 2rem 0;
+        padding: 2rem 0 0.2rem 0;
         display:flex;
         justify-content: space-between;
         align-items:flex-start;
+        background-color: #080A66;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     &__logo{
@@ -16,10 +19,12 @@
 
         &--state{
             margin-right: 12px;
+            padding-top: 1rem;
         }
 
         &--ebac{
             align-content:stretch;
+            padding-bottom: 1rem;
         }
     }
 

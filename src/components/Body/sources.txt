@@ -1,0 +1,8 @@
+" Sorocaba para todos" 
+Font family: Roboto
+Font style: Bold
+Font size: 36px
+Line height: 42px
+Line height: 100%
+Align: Left
+Vertical align: Top
